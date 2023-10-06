@@ -2,6 +2,32 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### API Key Requirement
+
+#### The Movie Database (TMDb) API Key
+
+This Next.js project relies on the API service provided by The Movie Database (TMDb). In order to run this project successfully, you will need to obtain an API key from themoviedb.org.
+
+#### Steps to obtain the API key:
+
+1. Sign up or log in to [themoviedb.org](https://www.themoviedb.org/).
+2. Navigate to the [API section](https://www.themoviedb.org/settings/api) in your account settings.
+3. Request an API key by following the on-screen instructions.
+4. Once you have your API key, create a `.env.local` file in the root of this project.
+5. Add your API key as follows:
+   ```
+   TMDB_API_KEY=your_api_key_here
+   ```
+
+Replace `your_api_key_here` with the actual key you obtained from TMDb.
+
+### Note:
+
+- Please make sure not to share your personal API key in public repositories or expose it in client-side code.
+- Respect the usage guidelines and limitations imposed by TMDb for their API service.
+
+
+
 First, run the development server:
 
 ```bash
@@ -34,3 +60,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
