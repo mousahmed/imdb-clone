@@ -7,7 +7,7 @@ interface Props {}
 
 function Header({}: Props) {
   return (
-    <div className="flex justify-between max-w-6xl sm:mx-auto items-center py-6 px-2">
+    <div className="flex justify-between max-w-7xl sm:mx-auto items-center py-6 px-2">
       <div className="flex">
         <MenuItem title="HOME" address="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
