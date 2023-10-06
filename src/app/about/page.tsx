@@ -4,7 +4,7 @@ interface Props {}
 
 function About({}: Props) {
   return (
-    <div className="max-w-6xl mx-auto space-y-4">
+    <div className="max-w-6xl mx-auto space-y-4 ">
       <h1 className="text-2xl font-medium text-amber-600 ">About IMDb Clone</h1>
       <section id="introduction">
         <h2 className="text-1xl font-medium text-amber-600">
