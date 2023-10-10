@@ -7,7 +7,7 @@ function Loading() {
         priority={true}
         width={384}
         height={384}
-        src="spinner.svg"
+        src="/spinner.svg"
         alt="loading..."
       />
     </div>

@@ -29,7 +29,7 @@ function Card({ id, title, overview, imgUrl, releaseDate, votesCount }: Props) {
           <p className="line-clamp-2 text-md">{overview}</p>
           <h2 className="truncate text-lg font-bold">{title}</h2>
           <span className="flex item space-x-2 text-sm justify-between">
-            <p >{releaseDate}</p>
+            <p>{releaseDate}</p>
             <p className="flex items-center">
               <FiThumbsUp className="mr-2 h-5" />
               {votesCount}

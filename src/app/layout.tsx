@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Providers from "./providers";
 import Navbar from "@/components/navbar";
+import SearchBox from "@/components/search-box";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({
           {/* Navbar */}
           <Navbar />
           {/* Searchbox */}
-
+          <SearchBox />
           {children}
         </Providers>
       </body>

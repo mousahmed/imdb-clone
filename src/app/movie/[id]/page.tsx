@@ -13,7 +13,6 @@ async function getMovie(movieId: string) {
     { next: { revalidate: 60 * 60 * 5 } },
   );
 
-  console.log(res.ok, movieId);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
